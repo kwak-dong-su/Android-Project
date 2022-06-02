@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="초간단 계산기"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/changeImgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이미지 변경 버튼"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        app:srcCompat="@android:drawable/star_on" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="숫자 1 입력"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="숫자 2 입력"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="더하기"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/minusBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="빼기"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/multiplyBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="곱하기"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/devideBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="나누기"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과는?"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+</LinearLayout>
