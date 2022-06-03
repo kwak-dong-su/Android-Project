@@ -5,21 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="브라우저로 열기"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    tools:context="com.apple.gotrip.WebViewActivity">
 
     <WebView
-        android:id="@+id/webview1"
+        android:id="@+id/hitripWebView"
         android:layout_width="match_parent"
-        android:layout_height="666dp">
-
-    </WebView>
-
+        android:layout_height="match_parent" />
 </LinearLayout>

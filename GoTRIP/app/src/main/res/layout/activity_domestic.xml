@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apple.gotrip.DomesticActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진을 눌러보세요"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/domestic1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#FFFFFF"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/domestic2" />
+
+        <ImageButton
+            android:id="@+id/domestic2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#FFFFFF"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/domestic1" />
+
+        <ImageButton
+            android:id="@+id/domestic3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#FFFFFF"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/domestic3" />
+    </LinearLayout>
+
+</LinearLayout>
